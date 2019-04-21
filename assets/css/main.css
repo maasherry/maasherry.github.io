@@ -2065,7 +2065,8 @@ input, select, textarea {
 
 		#header .icons {
 			font-size: 0.8em;
-			text-align: center;
+			text-align: right;
+			text-indent: -50%;
 		}
 
 			#header .icons a {
