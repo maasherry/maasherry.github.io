@@ -2033,7 +2033,7 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: #1f1e20 url("images/overlay.png");
-		box-shadow: inset -0.05em 0 0.0em 0 rgba(90, 90, 90, 0.05);
+		box-shadow: inset -0.08em 0 0.0em 0 rgba(0, 0, 0, 0.05);
 		color: rgb(255, 255, 255);
 		height: 100%;
 		left: 0;
@@ -2066,7 +2066,7 @@ input, select, textarea {
 		#header .icons {
 			font-size: 0.8em;
 			text-align: right;
-			text-indent: -50%;
+			text-indent: -90%;
 		}
 
 			#header .icons a {
@@ -2143,20 +2143,20 @@ input, select, textarea {
 					#nav ul li a span:before {
 						position: absolute;
 						left: 0;
-						color: #41484c;
+						color: #45414c;
 						text-align: center;
 						width: 1.25em;
 						line-height: 1.75em;
 					}
 
 				#nav ul li a.active {
-					background: rgba(0, 0, 0, 0.15);
+					background: rgba(255, 255, 255, 0.15);
 					box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
 					color: #fff;
 				}
 
 					#nav ul li a.active span:before {
-						color: #a092c5;
+						color: #b5acce;
 					}
 
 /* Footer */
