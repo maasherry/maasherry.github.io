@@ -2235,9 +2235,9 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				height: fit-content
 				background-color: #1f1e20;
 				background-image: url("../../images/pic08.jpg");
+				height: 100% 
 			}
 
 			#main > section.two {
