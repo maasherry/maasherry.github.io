@@ -2229,14 +2229,14 @@ input, select, textarea {
 					}
 
 			#main > section.cover {
-				padding: 30em 0;
+				padding: 10em 0;
 				background-size: cover;
 				background-position: center center;
 			}
 
 			#main > section.one {
 				background-color: #1f1e20;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/pic08.jpg");
 			}
 
 			#main > section.two {
