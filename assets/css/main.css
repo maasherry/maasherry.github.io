@@ -89,6 +89,7 @@ input, select, textarea {
 		font-weight: 300;
 		line-height: 1.75em;
 		color: rgb(184, 183, 183);
+		text-align: center
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
