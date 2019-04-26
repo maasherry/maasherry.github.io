@@ -207,9 +207,11 @@
 								<div class="col-3 col-12-mobile">
 										<article class="item">
 												<a href="#" class="image fit"><img src="images/zero.jpg" alt="Zero" /></a>
-												<header>
-													<h3>Zero</h3>
-												</header>
+												<div class="overlay">
+														<div class="text">Zero<br>
+														3"x 4"<br>
+														acrylic on panel</div>
+														</div>
 										</article>
 										<article class="item">
 												<a href="#" class="image fit"><img src="images/hubert.jpg" alt="Hubert" /></a>
@@ -222,9 +224,11 @@
 								<div class="col-3 col-12-mobile">
 										<article class="item">
 											<a href="#" class="image fit"><img src="images/cody.jpg" alt="Cody" /></a>
-											<header>
-												<h3>Cody</h3>
-											</header>
+											<div class="overlay">
+											<div class="text">Cody<br>
+											4"x 6"<br>
+											oil on panel</div>
+											</div>
 										</article>
 										<article class="item">
 											<a href="#" class="image fit"><img src="images/lilo.jpg" alt="cat" /></a>
@@ -301,3 +305,46 @@
 
 	</body>
 </html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.item {
+  position: relative;
+ 
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(37, 34, 41, 0.548);
+}
+
+.item:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  line-height: 1.2em;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
