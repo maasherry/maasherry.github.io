@@ -2271,7 +2271,8 @@ input, select, textarea {
 			}
 
 			#main > section.three {
-				background-color: #1f1e20;
+				background-color: #302f33;
+				padding: 0em 0em 3.5em;
 			}
 
 			#main > section.four {
