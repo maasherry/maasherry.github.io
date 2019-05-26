@@ -6,6 +6,38 @@
 
 (function($) {
 
+	// Get the modal
+	var modal = document.getElementById("myModal");
+
+	// Get the image and insert it inside the modal - use its "alt" text as a caption
+	var imgsweetjubilee = document.getElementById("sweetjubilee");
+	var imgsweetlavender = document.getElementById("lavender");
+
+
+	var modalImg = document.getElementById("img01");
+	var captionText = document.getElementById("caption");
+
+
+	imgsweetjubilee.onclick = function(){
+		modal.style.display = "block";
+		modalImg.src = this.src;
+		captionText.innerHTML = "Sweet Jubliee <br /> Price: $185"
+	}
+
+	imgsweetlavender.onclick = function(){
+		modal.style.display = "block";
+		modalImg.src = this.src;
+		captionText.innerHTML = "Sweet Jubliee <br /> Price: $185"
+	}
+
+	// Get the <span> element that closes the modal
+	var span = document.getElementsByClassName("close")[0];
+
+	// When the user clicks on <span> (x), close the modal
+	span.onclick = function() { 
+	modal.style.display = "none";
+	}
+	
 	var	$window = $(window),
 		$body = $('body'),
 		$nav = $('#nav');
