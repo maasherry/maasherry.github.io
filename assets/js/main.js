@@ -27,7 +27,7 @@
 	imgsweetlavender.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = "Sweet Jubliee <br /> Price: $185"
+		captionText.innerHTML = "Lavender <br /> Price: $185"
 	}
 
 	// Get the <span> element that closes the modal
