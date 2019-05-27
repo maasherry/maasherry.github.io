@@ -12,7 +12,7 @@
 	// Get the image and insert it inside the modal - use its "alt" text as a caption
 	var imgsweetjubilee = document.getElementById("sweetjubilee");
 	var imglavender = document.getElementById("lavender");
-	var imgX = document.getElementById("X");
+	var imgXX = document.getElementById("XX");
 
 
 	var modalImg = document.getElementById("img01");
@@ -31,10 +31,10 @@
 		captionText.innerHTML = "<h6>LAVENDER</h6><br/>2018 <br /> Acrylic on panel <br /> 16 x 16 in. <br /> Price: $185 (framed)"
 	}
 
-	imgX.onclick = function(){
+	imgXX.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = "<h6>X</h6><br/>2018 <br /> Acrylic on panel <br /> 16 x 16 in. <br /> Price: $165 (framed)"
+		captionText.innerHTML = "<h6>XX</h6><br/>2018 <br /> Acrylic on panel <br /> 16 x 16 in. <br /> Price: $165 (framed)"
 	}
 
 	// Get the <span> element that closes the modal
