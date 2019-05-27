@@ -11,8 +11,8 @@
 
 	// Get the image and insert it inside the modal - use its "alt" text as a caption
 	var imgsweetjubilee = document.getElementById("sweetjubilee");
-	var imgsweetlavender = document.getElementById("lavender");
-	var imgsweetlavender = document.getElementById("lavender");
+	var imglavender = document.getElementById("lavender");
+	var imgX = document.getElementById("X");
 
 
 	var modalImg = document.getElementById("img01");
@@ -22,19 +22,19 @@
 	imgsweetjubilee.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = "Sweet Jubliee <br /> Price: $185"
+		captionText.innerHTML = "<h6>SWEET JUBILEE</h6><br/> 2018 <br /> Acrylic on panel <br /> 16 x 16 in. <br /> Price: $185 (framed)"
 	}
 
-	imgsweetlavender.onclick = function(){
+	imglavender.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = "Lavender <br /> Price: $185"
+		captionText.innerHTML = "<h6>LAVENDER</h6><br/>2018 <br /> Acrylic on panel <br /> 16 x 16 in. <br /> Price: $185 (framed)"
 	}
 
-	imgsweetlavender.onclick = function(){
+	imgX.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = "Lavender <br /> Price: $185"
+		captionText.innerHTML = "<h6>X</h6> <br /> Price: $185"
 	}
 
 	// Get the <span> element that closes the modal
