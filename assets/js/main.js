@@ -34,7 +34,7 @@
 	imgX.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = "<h6>X</h6> <br /> Price: $185"
+		captionText.innerHTML = "<h6>X</h6><br/>2018 <br /> Acrylic on panel <br /> 16 x 16 in. <br /> Price: $165 (framed)"
 	}
 
 	// Get the <span> element that closes the modal
