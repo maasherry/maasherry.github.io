@@ -12,6 +12,7 @@
 	// Get the image and insert it inside the modal - use its "alt" text as a caption
 	var imgsweetjubilee = document.getElementById("sweetjubilee");
 	var imgsweetlavender = document.getElementById("lavender");
+	var imgsweetlavender = document.getElementById("lavender");
 
 
 	var modalImg = document.getElementById("img01");
@@ -22,6 +23,12 @@
 		modal.style.display = "block";
 		modalImg.src = this.src;
 		captionText.innerHTML = "Sweet Jubliee <br /> Price: $185"
+	}
+
+	imgsweetlavender.onclick = function(){
+		modal.style.display = "block";
+		modalImg.src = this.src;
+		captionText.innerHTML = "Lavender <br /> Price: $185"
 	}
 
 	imgsweetlavender.onclick = function(){
