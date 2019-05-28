@@ -2089,7 +2089,7 @@ input, select, textarea {
 	}
 
 		.item header {
-			background: #fafafae8;
+			background: #d7d4dd;
 			margin: 0;
 			padding: 0em 0 0em 0;
 			font-size: 0.8em;
@@ -2097,7 +2097,7 @@ input, select, textarea {
 
 			.item header h3 {
 				font-size: .9em;
-				color: #46466d
+				color: #494356
 			}
 
 /* Icons */
