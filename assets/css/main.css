@@ -249,28 +249,34 @@ input, select, textarea {
 	display: none; /* Hidden by default */
 	position: fixed; /* Stay in place */
 	z-index: 1; /* Sit on top */
-	padding-top: 100px; /* Location of the box */
+	padding-top: 30px; /* Location of the box */
 	left: 0;
 	top: 0;
 	width: 100%; /* Full width */
 	height: 100%; /* Full height */
 	overflow: auto; /* Enable scroll if needed */
 	background-color: rgb(0,0,0); /* Fallback color */
-	background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+	background-color: rgba(0, 0, 0, 0.801); /* Black w/ opacity */
   }
   
   /* Modal Content (Image) */
   .modal-content {
-	margin: auto;
+	margin-top: 0;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: 0;
 	display: block;
-	width: 80%;
+	width: auto;
+	max-height: 95vh; 
 	max-width: 700px;
+	min-width: auto;
   }
   
   /* Caption of Modal Image (Image Text) */
   #caption {
-	width: 50%;
+	width: 28%;
 	text-align: center;
+	padding: 80px 0;
 	color: #ccc;
   }
   
@@ -298,7 +304,7 @@ input, select, textarea {
   
   .close:hover,
   .close:focus {
-	color: #b1b1cd;
+	color: #b1aabb;
 	text-decoration: none;
 	cursor: pointer;
   }
@@ -306,8 +312,19 @@ input, select, textarea {
   /* 100% Image Width on Smaller Screens */
   @media only screen and (max-width: 700px){
 	.modal-content {
-	  width: 100%;
+	  width: 72%;
+	  margin-top: 0;
+	  margin-bottom: auto;
+	  margin-left: auto;
+	  margin-right: 0;
 	}
+	#caption {
+		width: 28%;
+		text-align: center;
+		padding: 30px 0;
+		color: #ccc;
+		font-size: .9em;
+	  }
   }
 
 
