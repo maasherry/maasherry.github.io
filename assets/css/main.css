@@ -139,8 +139,11 @@ input, select, textarea {
 			}
 
 	h3 {
-		font-size: 1.5em;
+		font-size: 1.2em;
 	}
+		h3.alt {
+			color:rgb(189, 189, 189)
+		}
 
 	h4 {
 		font-size: 1em;
@@ -162,7 +165,7 @@ input, select, textarea {
 		}
 
 			h5.alt strong {
-				color: #888
+				color: rgb(151, 151, 151)
 			}
 
 	h6 {
@@ -2106,7 +2109,7 @@ input, select, textarea {
 	}
 
 		.item header {
-			background: #d7d4dd;
+			background: #e5e3e8;
 			margin: 0;
 			padding: 0em 0 0em 0;
 			font-size: 0.8em;
