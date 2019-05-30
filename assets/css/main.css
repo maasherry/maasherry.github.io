@@ -2106,7 +2106,7 @@ input, select, textarea {
 	}
 
 		.item header {
-			background: #f2f1f4;
+			background: #d7d4dd;
 			margin: 0;
 			padding: 0em 0 0em 0;
 			font-size: 0.8em;
@@ -2518,7 +2518,6 @@ input, select, textarea {
 
 			.item {
 				margin-bottom: 15px;
-				font-size: 18pt;
 			}
 
 		/* Icons */
