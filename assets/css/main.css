@@ -84,10 +84,10 @@ input, select, textarea {
 
 	body {
 		background: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 18pt;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 15pt;
 		font-weight: 300;
-		line-height: 1.75em;
+		line-height: 1.5em;
 		color: rgb(184, 183, 183);
 	}
 
@@ -103,8 +103,8 @@ input, select, textarea {
 		}
 
 	input, textarea, select {
-		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 18pt;
+		font-family: 'Source Sans Pro', Helvetica, sans-serif;
+		font-size: 1em;
 		font-weight: 300;
 		line-height: 1.25em;
 		color: #888;
@@ -126,8 +126,10 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.5em;
-		letter-spacing: 2px;
+		font-size: 1.4em;
+		font-weight: 380;
+		letter-spacing: 0.1em;
+		font-stretch: ultra-expanded;
 		
 	}
 
@@ -140,19 +142,19 @@ input, select, textarea {
 			}
 
 	h3 {
-		font-size: 1.25em;
+		font-size: 1.2em;
 		
 	}
 		h3.alt {
 			color:rgb(189, 189, 189);
-			letter-spacing: .5px;
+			letter-spacing: .05em;
 		}
 
 		h3.alt strong {
 			color: rgb(255, 255, 255);
 			font-size: 1em;
-			line-height: 3.5em;
-			letter-spacing: 1px;
+			letter-spacing: .08em;
+			line-height: 2em;
 		}
 
 	h4 {
@@ -165,7 +167,7 @@ input, select, textarea {
 
 			h4.alt strong {
 				color: rgb(184, 183, 183);
-				line-height: 1.8em;
+				line-height: 1.5em;
 			}
 
 	h5 {
@@ -182,17 +184,26 @@ input, select, textarea {
 			}
 
 	h6 {
-		font-size: 19pt; 
-		font-weight: 370;
+		font-size: 1.2em; 
+		font-weight: 500;
 	}
+		h6.alt {
+		
+		}
+
+			h6.alt strong {
+				color: rgb(151, 151, 151);
+				line-height: 0em;
+				font-size: .5em;
+			}
 		
 
 	header {
-		margin: 0 0 2em 0;
+		margin: 1.5em 0 1.5em 0;
 	}
 
 		header > p {
-			margin: 1em 0 0 0;
+			margin: 1.5em 0 0 0;
 		}
 
 	footer {
@@ -248,7 +259,7 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 2em;
+		margin-bottom: 1em;
 	}
 
 	br.clear {
@@ -2706,8 +2717,8 @@ input, select, textarea {
 			}
 
 			h2 {
-				font-size: 1.5em;
-				letter-spacing: 0;
+				font-size: 1.4em;
+				letter-spacing: 0.05em;
 				font-weight: 300;
 			}
 
