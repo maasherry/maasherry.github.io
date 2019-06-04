@@ -2086,7 +2086,8 @@ input, select, textarea {
 		border-radius: 0.1em;
 		color: rgb(214, 214, 214) !important;
 		text-decoration: none;
-		padding: 0.2em 2em 0.4em 2em;
+		font-size: .95em;
+		padding: 0.2em 2em 0.3em 2em;
 		background-color: #4b445517;
 		border-width: 1px;
 		border-color: #d8d5dd2d; 
