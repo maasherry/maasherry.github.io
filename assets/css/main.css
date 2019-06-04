@@ -187,15 +187,6 @@ input, select, textarea {
 		font-size: 1.2em; 
 		font-weight: 500;
 	}
-		h6.alt {
-		
-		}
-
-			h6.alt strong {
-				color: rgb(151, 151, 151);
-				line-height: 0em;
-				font-size: .5em;
-			}
 		
 
 	header {
@@ -2240,7 +2231,7 @@ input, select, textarea {
 		#logo h1 {
 			position: relative;
 			color: #fff;
-			font-weight: 600;
+			font-weight: 550;
 			font-size: 1em;
 			line-height: 1em;
 		}
@@ -2248,9 +2239,9 @@ input, select, textarea {
 		#logo p {
 			position: relative;
 			display: block;
-			font-size: 0.6em;
+			font-size: 0.7em;
 			color: rgba(255, 255, 255, 0.5);
-			line-height: 1.25em;
+			line-height: 1em;
 			margin: 0.5em 0 0 0;
 		}
 
@@ -2383,7 +2374,7 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #1e1e2f20;
+				background-color: #1e1e2f;
 				background-image: url("../../images/banner.jpg");
 				height: 100vh;
 			}
@@ -2486,7 +2477,7 @@ input, select, textarea {
 			}
 
 			#nav ul li a {
-				font-size: 0.8em;
+				font-size: .9em;
 				padding-top: 0.5em;
 				padding-bottom: 0.5em;
 			}
@@ -2498,7 +2489,7 @@ input, select, textarea {
 					#nav ul li a span:before {
 						left: 100%;
 						margin-left: -1.25em;
-						line-height: 2.25em;
+						line-height: 1.7em;
 					}
 
 		/* Footer */
