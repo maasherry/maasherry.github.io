@@ -22,6 +22,7 @@
 	var imgtorn3 = document.getElementById("torn3");
 	var imglemon = document.getElementById("lemon");
 	var imgdandelion = document.getElementById("dandelion");
+	var imgmissingme = document.getElementById("missingme");
 
 
 	var modalImg = document.getElementById("img01");
@@ -83,12 +84,17 @@
 	imglemon.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = "<h6>LEMON</h6><br/>2018 <br /> Acrylic on panel <br /> 18 x 18 in. <br /> Price: $195 (framed)"
+		captionText.innerHTML = "<h6>LEMON</h6><br/>2018 <br /> Acrylic on panel <br /> 18 x 18 in. <br /> Price: $200 (framed)"
 	}
 	imgdandelion.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = "<h6>DANDELION</h6><br/>2018 <br /> Acrylic on panel <br /> 16 x 16 in. <br /> Price: $185 (framed)"
+		captionText.innerHTML = "<h6>DANDELION</h6><br/>2018<br /> Acrylic on panel <br /> 16 x 16 in. <br /> Price: $185 (framed)"
+	}
+	imgmissingme.onclick = function(){
+		modal.style.display = "block";
+		modalImg.src = this.src;
+		captionText.innerHTML = "<h6>MISSING ME</h6><br/>2018<br /> Acrylic on panel <br /> 18 x 18 in. <br /> Price: $200 (framed)"
 	}
 
 	// Get the <span> element that closes the modal
