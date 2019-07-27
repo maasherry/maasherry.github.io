@@ -32,64 +32,64 @@
 	imgsweetjubilee.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = "<h6>SWEET JUBILEE</h6><br/> 2018 <br /> Acrylic on panel <br /> 16 x 16 in. <br /> Price: $185 (framed)"
+		captionText.innerHTML = "<h6>SWEET JUBILEE</h6><br/> 2018 <br /> Acrylic on panel <br /> 16 x 16 in. <br /> Price: $200 (framed)"
 	}
 
 	imglavender.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = "<h6>LAVENDER</h6><br/>2018 <br /> Acrylic on panel <br /> 16 x 16 in. <br /> Price: $185 (framed)"
+		captionText.innerHTML = "<h6>LAVENDER</h6><br/>2018 <br /> Acrylic on panel <br /> 16 x 16 in. <br /> Price: $200 (framed)"
 	}
 
 	imgXX.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = "<h6>XX</h6><br/>2018 <br /> Acrylic on panel <br /> 16 x 16 in. <br /> Price: $165 (framed)"
+		captionText.innerHTML = "<h6>XX</h6><br/>2018 <br /> Acrylic on panel <br /> 16 x 16 in. <br /> Price: $200 (framed)"
 	}
 	imgdolphin.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = "<h6>UNTITLED No.1</h6><br/>2018 <br /> Acrylic and sumi ink on panel <br /> 16 x 16 in. <br /> Price: $185 (framed)"
+		captionText.innerHTML = "<h6>UNTITLED No.1</h6><br/>2018 <br /> Acrylic and sumi ink on panel <br /> 16 x 16 in. <br /> Price: $200 (framed)"
 	}
 	imgsalmon.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = "<h6>UNTITLED No.2</h6><br/>2018 <br /> Acrylic and sumi ink on panel <br /> 16 x 16 in. <br /> Price: $185 (framed)"
+		captionText.innerHTML = "<h6>UNTITLED No.2</h6><br/>2018 <br /> Acrylic and sumi ink on panel <br /> 16 x 16 in. <br /> Price: $200 (framed)"
 	}
 	imgmint.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = "<h6>UNTITLED No.3</h6><br/>2018 <br /> Acrylic and sumi ink on panel <br /> 16 x 16 in. <br /> Price: $185 (framed)"
+		captionText.innerHTML = "<h6>UNTITLED No.3</h6><br/>2018 <br /> Acrylic and sumi ink on panel <br /> 16 x 16 in. <br /> Price: $200 (framed)"
 	}
 	imgpeacock.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = "<h6>PEACOCK</h6><br/>2018 <br /> Acrylic on panel <br /> 16 x 16 in. <br /> Price: $185 (framed)"
+		captionText.innerHTML = "<h6>PEACOCK</h6><br/>2018 <br /> Acrylic on panel <br /> 16 x 16 in. <br /> Price: $200 (framed)"
 	}
 	imgfern.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = "<h6>FERN</h6><br/>2018 <br /> Acrylic on panel <br /> 16 x 16 in. <br /> Price: $185 (framed)"
+		captionText.innerHTML = "<h6>FERN</h6><br/>2018 <br /> Acrylic on panel <br /> 16 x 16 in. <br /> Price: $200 (framed)"
 	}
 	imgtorn2.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = "<h6>TORN II</h6><br/>2018 <br /> Acrylic on cradled panel <br /> 12 x 12 in. <br /> Price: $95 (unframed)"
+		captionText.innerHTML = "<h6>TORN II</h6><br/>2018 <br /> Acrylic on cradled panel <br /> 12 x 12 in. <br /> Price: $100 (unframed)"
 	}
 	imgtorn3.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = "<h6>TORN III</h6><br/>2018 <br /> Acrylic on cradled panel <br /> 12 x 12 in. <br /> Price: $95 (unframed)"
+		captionText.innerHTML = "<h6>TORN III</h6><br/>2018 <br /> Acrylic on cradled panel <br /> 12 x 12 in. <br /> Price: $100 (unframed)"
 	}
 	imglemon.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = "<h6>LEMON</h6><br/>2018 <br /> Acrylic on panel <br /> 18 x 18 in. <br /> Price: $200 (framed)"
+		captionText.innerHTML = "<h6>LEMON</h6><br/>2018 <br /> Acrylic on panel <br /> 18 x 18 in. <br /> Price: $220 (framed)"
 	}
 	imgdandelion.onclick = function(){
 		modal.style.display = "block";
 		modalImg.src = this.src;
-		captionText.innerHTML = "<h6>DANDELION</h6><br/>2018<br /> Acrylic on panel <br /> 16 x 16 in. <br /> Price: $185 (framed)"
+		captionText.innerHTML = "<h6>DANDELION</h6><br/>2018<br /> Acrylic on panel <br /> 16 x 16 in. <br /> Price: $200 (framed)"
 	}
 	imgmissingme.onclick = function(){
 		modal.style.display = "block";
